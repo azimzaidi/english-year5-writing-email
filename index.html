@@ -1,0 +1,1116 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<title>Year 5 Writing Part 1</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700;800&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+<style>
+/* One screen at a time. Bright sticker style: thick outlines, hard shadows, candy colours. */
+:root {
+  --bg: #d6f0ff;
+  --sky-top: #9bdcff;
+  --surface: #ffffff;
+  --ink: #0f3b4f;
+  --muted: #3f6577;
+  --edge: #0f3b4f;
+  --green: #0e8a52;
+  --brand: #ffb020;
+  --brand-ink: #0b7a45;
+  --brand-soft: #def6d6;
+  --pink: #ff7a66;
+  --pink-ink: #d93a25;
+  --yellow: #ffd23f;
+  --teal: #3ed598;
+  --blue: #3ea6ff;
+  --pink-soft: #ffe2dc;
+  --yellow-soft: #fff1b5;
+  --teal-soft: #d2f7e5;
+  --blue-soft: #d2ebff;
+  --on-brand: #0f3b4f;
+  --paper: #fffef2;
+  --rule: #b9dcf7;
+  --margin: #ff8a7a;
+  --font-display: "Baloo 2", "Trebuchet MS", system-ui, sans-serif;
+  --font-body: "Nunito", system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0c2a33; --sky-top: #12475a; --surface: #14394a; --ink: #f2fbff; --muted: #b7d4dc; --edge: #7fd6c2;
+    --green: #0a6e42; --brand: #ffc04d; --brand-ink: #8ff0b8; --brand-soft: #1e4a3b; --pink: #ff8f82; --pink-ink: #ffb0a5;
+    --yellow: #ffd23f; --teal: #3ed598; --blue: #5db5ff; --pink-soft: #5a2f2d; --yellow-soft: #55481a; --teal-soft: #12503f;
+    --blue-soft: #1c4d7a; --on-brand: #0f2a33; --paper: #1d4658; --rule: #2f6178; --margin: #a65a52; color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #0c2a33; --sky-top: #12475a; --surface: #14394a; --ink: #f2fbff; --muted: #b7d4dc; --edge: #7fd6c2;
+  --green: #0a6e42; --brand: #ffc04d; --brand-ink: #8ff0b8; --brand-soft: #1e4a3b; --pink: #ff8f82; --pink-ink: #ffb0a5;
+  --yellow: #ffd23f; --teal: #3ed598; --blue: #5db5ff; --pink-soft: #5a2f2d; --yellow-soft: #55481a; --teal-soft: #12503f;
+  --blue-soft: #1c4d7a; --on-brand: #0f2a33; --paper: #1d4658; --rule: #2f6178; --margin: #a65a52; color-scheme: dark;
+}
+
+* { box-sizing: border-box; }
+body { background-color: var(--bg); background-image: linear-gradient(to bottom, var(--sky-top), var(--bg) 420px); background-repeat: no-repeat; color: var(--ink); font-family: var(--font-body); font-size: 17px; line-height: 1.5; padding-inline: 16px; padding-block: 0 40px; }
+h1, h2, h3, h4, p { margin: 0; }
+h1, h2, h3 { font-family: var(--font-display); line-height: 1.1; text-wrap: balance; }
+button, input, textarea { font: inherit; color: inherit; }
+button { cursor: pointer; }
+:focus-visible { outline: 3px solid var(--pink); outline-offset: 2px; }
+
+.topbar { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; margin-inline: -16px; padding: 10px 16px; background: var(--green); border-bottom: 3px solid var(--edge); }
+.topbar-inner { max-width: 960px; margin: 0 auto; display: flex; flex-wrap: wrap; gap: 8px 16px; align-items: center; justify-content: space-between; }
+.brand { display: flex; align-items: center; gap: 10px; min-width: 0; flex-wrap: wrap; }
+.brand-badge { background: var(--yellow); color: #231a5c; border: 2px solid #231a5c; font-family: var(--font-display); font-weight: 800; font-size: .78rem; letter-spacing: .05em; text-transform: uppercase; padding: 3px 12px; border-radius: 999px; white-space: nowrap; }
+.brand-title { font-family: var(--font-display); font-weight: 800; font-size: 1.35rem; line-height: 1.1; color: #fff; }
+.tabs { display: flex; flex-wrap: wrap; gap: 6px; }
+.tab { border: 2px solid transparent; background: transparent; color: #fff; font-weight: 800; padding: 6px 14px; border-radius: 999px; }
+.tab[aria-selected="true"] { background: #fff; color: #231a5c; border-color: #231a5c; }
+
+main { max-width: 960px; margin: 22px auto 0; }
+.card { background: var(--surface); border: 3px solid var(--edge); border-radius: 26px; box-shadow: 0 7px 0 var(--edge); padding: clamp(16px, 3.5vw, 30px); }
+.eyebrow { display: inline-block; font-size: .74rem; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; color: var(--ink); background: var(--blue-soft); border: 2px solid var(--edge); padding: 2px 10px; border-radius: 999px; }
+.chips { display: flex; flex-wrap: wrap; gap: 8px; }
+.chip { font-size: .85rem; font-weight: 800; padding: 3px 12px; border-radius: 999px; background: var(--blue-soft); border: 2px solid var(--edge); color: var(--ink); }
+.chips.rainbow .chip:nth-child(5n+1) { background: var(--blue-soft); }
+.chips.rainbow .chip:nth-child(5n+2) { background: var(--yellow-soft); }
+.chips.rainbow .chip:nth-child(5n+3) { background: var(--pink-soft); }
+.chips.rainbow .chip:nth-child(5n+4) { background: var(--teal-soft); }
+.chips.rainbow .chip:nth-child(5n+5) { background: var(--brand-soft); }
+.lead { color: var(--muted); font-size: 1.08rem; max-width: 52ch; font-weight: 600; }
+.hint { color: var(--muted); font-size: .9rem; font-weight: 700; }
+.parent { background: var(--yellow-soft); border: 2px solid var(--edge); border-radius: 14px; padding: 6px 14px; font-size: .95rem; font-weight: 800; justify-self: start; }
+.pill-btn { border: 2px solid var(--edge); background: var(--surface); color: var(--ink); border-radius: 999px; padding: 5px 16px; font-weight: 800; font-size: .9rem; box-shadow: 0 3px 0 var(--edge); }
+.pill-btn:active, .btn:active { transform: translateY(3px); box-shadow: none; }
+.btn { border: 3px solid var(--edge); border-radius: 999px; padding: 10px 26px; font-weight: 800; font-size: 1.05rem; background: var(--brand); color: var(--on-brand); box-shadow: 0 5px 0 var(--edge); }
+.btn.alt { background: var(--yellow); color: #231a5c; }
+.row-actions { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; }
+.sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+
+/* home */
+.home-hero { display: grid; grid-template-columns: minmax(0, 6fr) minmax(0, 5fr); gap: 20px; align-items: center; }
+@media (max-width: 760px) { .home-hero { grid-template-columns: minmax(0, 1fr); } }
+.home-hero > div { display: grid; gap: 12px; justify-items: start; min-width: 0; }
+.home-hero h2 { font-size: clamp(2rem, 5.5vw, 3rem); }
+.home-hero h2 em { font-style: normal; color: var(--pink-ink); }
+.scene { width: 100%; height: auto; border-radius: 20px; display: block; border: 3px solid var(--edge); background: var(--blue-soft); }
+.me-box { display: grid; gap: 12px; margin-top: 22px; background: var(--pink-soft); border: 3px solid var(--edge); border-radius: 20px; padding: 16px; }
+.me-box h3 { font-size: 1.45rem; }
+.me-box label { display: grid; gap: 6px; font-weight: 800; max-width: 340px; }
+.me-box input { background: var(--surface); color: var(--ink); border: 3px solid var(--edge); border-radius: 14px; padding: 9px 12px; font-weight: 800; }
+.me-box input:focus { outline: 3px solid var(--yellow); }
+.picks { display: flex; flex-wrap: wrap; gap: 8px; }
+.pick { border: 2px solid var(--edge); background: var(--surface); color: var(--ink); border-radius: 999px; padding: 5px 14px; font-weight: 800; font-size: .92rem; }
+.pick[aria-pressed="true"] { background: var(--teal); color: #231a5c; box-shadow: 0 3px 0 var(--edge); }
+.prog-box { display: grid; gap: 10px; margin-top: 18px; background: var(--yellow-soft); border: 3px solid var(--edge); border-radius: 20px; padding: 14px 16px; }
+.prog-row { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; justify-content: space-between; }
+.prog-t { font-weight: 800; font-size: 1.05rem; }
+.segs { display: flex; gap: 6px; }
+.seg { flex: 1; height: 14px; border-radius: 999px; background: var(--surface); border: 2px solid var(--edge); }
+.seg.on { background: var(--teal); }
+.units { display: grid; gap: 16px; margin-top: 18px; }
+.unit { border: 3px solid var(--edge); border-radius: 22px; padding: 16px; display: grid; gap: 12px; min-width: 0; }
+.unit.u0 { background: var(--blue-soft); }
+.unit.u1 { background: var(--teal-soft); }
+.unit.u2 { background: var(--brand-soft); }
+.unit-h { display: grid; gap: 4px; justify-items: start; }
+.unit-h h3 { font-size: 1.5rem; }
+.unit-h p { font-weight: 700; color: var(--muted); }
+.lessons { display: grid; gap: 10px; }
+.lrow { display: grid; grid-template-columns: auto minmax(0, 1fr) auto; gap: 12px; align-items: center; text-align: left; width: 100%; background: var(--surface); border: 3px solid var(--edge); border-radius: 16px; padding: 10px 14px; box-shadow: 0 4px 0 var(--edge); }
+.lrow:active { transform: translateY(3px); box-shadow: none; }
+.lrow-t { display: grid; min-width: 0; }
+.lrow-t b { font-family: var(--font-display); font-size: 1.12rem; }
+.lrow-t small { color: var(--muted); font-weight: 700; }
+.lrow-s { font-weight: 800; font-size: .78rem; letter-spacing: .06em; text-transform: uppercase; background: var(--yellow); color: #231a5c; border: 2px solid var(--edge); border-radius: 999px; padding: 2px 10px; }
+.lrow.is-done .lrow-s { background: var(--teal); }
+.num { flex: none; width: 34px; height: 34px; border-radius: 50%; background: var(--pink); color: #231a5c; border: 2px solid var(--edge); display: grid; place-items: center; font-family: var(--font-display); font-weight: 800; }
+
+/* lesson */
+.back { margin-bottom: 16px; }
+.lhead { display: grid; gap: 10px; justify-items: start; padding-bottom: 14px; border-bottom: 3px dashed var(--edge); margin-bottom: 18px; }
+.lhead h2 { font-size: clamp(1.8rem, 5vw, 2.5rem); }
+.lbar { display: flex; flex-wrap: wrap; gap: 10px 16px; align-items: center; width: 100%; }
+.dots { display: flex; gap: 6px; flex: 1; min-width: 140px; }
+.dot { flex: 1; height: 12px; border-radius: 999px; background: var(--surface); border: 2px solid var(--edge); }
+.dot.on { background: var(--yellow); }
+.dot.now { background: var(--pink); }
+.stepno { font-weight: 800; color: var(--muted); font-size: .95rem; white-space: nowrap; }
+.timer { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; }
+.timer-t { font-family: var(--font-display); font-weight: 800; font-size: 1.4rem; font-variant-numeric: tabular-nums; }
+.screen { display: grid; gap: 16px; min-width: 0; }
+.screen > h3 { font-size: clamp(1.5rem, 4.4vw, 2rem); color: var(--brand-ink); }
+.nav { display: flex; justify-content: space-between; gap: 12px; margin-top: 22px; padding-top: 16px; border-top: 3px dashed var(--edge); }
+.nav .spacer { flex: 1; }
+.plain { margin: 0; padding-left: 22px; display: grid; gap: 6px; }
+.big-list { margin: 0; padding: 0; list-style: none; display: grid; gap: 10px; }
+.big-list li { display: flex; gap: 12px; align-items: center; background: var(--yellow-soft); border: 2px solid var(--edge); border-radius: 16px; padding: 10px 14px; font-weight: 800; }
+.two { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px; align-items: start; }
+@media (max-width: 760px) { .two { grid-template-columns: minmax(0, 1fr); } }
+.wleft { display: grid; gap: 14px; min-width: 0; align-content: start; }
+.col-q { font-weight: 800; color: var(--muted); }
+.panel { border: 3px solid var(--edge); border-radius: 20px; padding: 16px; min-width: 0; display: grid; gap: 10px; align-content: start; }
+.panel:nth-child(1) { background: var(--blue-soft); }
+.panel:nth-child(2) { background: var(--yellow-soft); }
+.panel h3 { font-size: 1.4rem; }
+.q-text { background: var(--surface); border: 3px solid var(--edge); border-radius: 18px; padding: 16px 18px; display: grid; gap: 10px; font-size: 1.05rem; }
+.q-text ul { margin: 0; padding-left: 22px; }
+.frames { display: grid; gap: 8px; }
+.frame { background: var(--surface); border: 2px solid var(--edge); border-radius: 12px; padding: 8px 12px; border-left-width: 8px; border-left-color: var(--pink); overflow-wrap: anywhere; }
+.frame b { color: var(--brand-ink); }
+.why { background: var(--teal-soft); border: 2px solid var(--edge); border-radius: 14px; padding: 8px 14px; font-weight: 700; }
+.chips.bank .chip { background: var(--surface); }
+mark { color: inherit; border-radius: 8px; padding: 1px 6px; font-weight: 800; border: 2px solid var(--edge); }
+.m-who { background: var(--blue-soft); }
+.m-why { background: var(--yellow-soft); }
+.m-pt { background: var(--pink-soft); }
+.m-wd { background: var(--teal-soft); }
+.legend { display: grid; gap: 10px; }
+.leg { display: grid; grid-template-columns: 96px minmax(0, 1fr); gap: 12px; align-items: start; }
+.leg mark { text-align: center; }
+@media (max-width: 460px) { .leg { grid-template-columns: minmax(0, 1fr); gap: 4px; } .leg mark { justify-self: start; } }
+.mail { border: 3px solid var(--edge); border-radius: 16px; background: var(--surface); overflow: hidden; }
+.mail-head { background: var(--blue-soft); border-bottom: 3px solid var(--edge); }
+.mail-row { display: flex; gap: 12px; padding: 8px 14px; }
+.mail-k { width: 64px; flex: none; color: var(--muted); font-weight: 800; font-size: .92rem; }
+.mail-v { font-weight: 800; min-width: 0; overflow-wrap: anywhere; }
+.mail-body { padding: 12px 14px; display: grid; gap: 8px; }
+.book-cap { font-weight: 800; font-size: .9rem; color: var(--muted); margin-bottom: 6px; }
+.book-page { position: relative; background-color: var(--paper); background-image: repeating-linear-gradient(to bottom, transparent 0, transparent 31px, var(--rule) 31px, var(--rule) 32px); border: 3px solid var(--edge); border-radius: 8px 16px 16px 8px; padding: 0 12px 0 46px; }
+.book-page::before { content: ""; position: absolute; left: 34px; top: 0; bottom: 0; width: 2px; background: var(--margin); }
+.bline { min-height: 32px; line-height: 32px; font-size: .98rem; overflow-wrap: anywhere; font-weight: 700; }
+.help { background: var(--surface); border: 2px solid var(--edge); border-radius: 14px; padding: 8px 14px; }
+.help summary { cursor: pointer; font-weight: 800; }
+.help-body { display: grid; gap: 8px; margin-top: 10px; }
+.sendbox { display: grid; gap: 14px; }
+.sendbox label { display: flex; gap: 12px; align-items: flex-start; font-weight: 800; font-size: 1.1rem; background: var(--yellow-soft); border: 3px solid var(--edge); border-radius: 16px; padding: 12px 14px; }
+.sendbox input { width: 24px; height: 24px; margin-top: 2px; flex: none; accent-color: var(--brand); }
+.done-msg { background: var(--teal-soft); border: 3px solid var(--edge); border-radius: 18px; padding: 14px 16px; font-weight: 800; font-size: 1.1rem; display: grid; gap: 10px; justify-items: start; }
+.fill-p { line-height: 2.4; overflow-wrap: anywhere; }
+.fill-sign { margin-top: 4px; color: var(--muted); font-weight: 700; }
+.blank { font: inherit; font-weight: 800; background: var(--yellow-soft); color: var(--ink); border: 2px solid var(--edge); border-radius: 10px; padding: 2px 8px; max-width: 100%; }
+.blank:focus-visible { outline: 3px solid var(--pink); outline-offset: 1px; }
+.blank::placeholder { color: var(--muted); font-weight: 600; }
+
+/* toolkit */
+.tk-nav { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 16px; }
+.tk-sec { padding-block: 24px; border-top: 3px dashed var(--edge); display: grid; gap: 14px; scroll-margin-top: 90px; min-width: 0; }
+.tk-sec:first-of-type { border-top: 0; padding-top: 6px; }
+.tk-sec h3 { font-size: 1.6rem; color: var(--brand-ink); }
+.phr-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; }
+@media (max-width: 860px) { .phr-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 560px) { .phr-grid { grid-template-columns: minmax(0, 1fr); } }
+.phr { border: 3px solid var(--edge); border-radius: 18px; padding: 12px 14px; display: grid; gap: 6px; align-content: start; min-width: 0; font-weight: 700; }
+.phr:nth-child(4n+1) { background: var(--blue-soft); }
+.phr:nth-child(4n+2) { background: var(--yellow-soft); }
+.phr:nth-child(4n+3) { background: var(--pink-soft); }
+.phr:nth-child(4n+4) { background: var(--teal-soft); }
+.phr h4 { font-family: var(--font-display); font-size: 1.15rem; }
+.phr p { overflow-wrap: anywhere; }
+.mist { display: grid; gap: 10px; }
+.mist-row { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
+@media (max-width: 560px) { .mist-row { grid-template-columns: minmax(0, 1fr); } }
+.mist-row > div { border: 2px solid var(--edge); border-radius: 14px; padding: 8px 12px; overflow-wrap: anywhere; display: grid; gap: 2px; font-weight: 700; }
+.mist-row small { font-weight: 800; letter-spacing: .06em; text-transform: uppercase; font-size: .72rem; }
+.mist-row .no { background: var(--pink-soft); }
+.mist-row .yes { background: var(--teal-soft); }
+.wc-area { width: 100%; min-height: 160px; background: var(--paper); border: 3px solid var(--edge); border-radius: 16px; padding: 10px 12px; line-height: 1.55; resize: vertical; }
+.wc-area:focus { outline: 3px solid var(--pink); }
+.counter { display: grid; gap: 6px; }
+.counter-row { display: flex; justify-content: space-between; gap: 12px; flex-wrap: wrap; font-weight: 800; }
+.meter { position: relative; height: 16px; background: var(--surface); border: 2px solid var(--edge); border-radius: 999px; overflow: hidden; }
+.meter-zone { position: absolute; top: 0; bottom: 0; left: 50%; width: 33.34%; background: var(--teal-soft); }
+.meter-fill { position: absolute; top: 0; bottom: 0; left: 0; width: 0; background: var(--yellow); transition: width .15s ease; }
+.meter[data-state="ok"] .meter-fill { background: var(--teal); }
+.meter[data-state="long"] .meter-fill { background: var(--pink); }
+.ticks { position: relative; height: 16px; font-size: .75rem; color: var(--muted); font-weight: 800; }
+.ticks span { position: absolute; transform: translateX(-50%); }
+.status { font-weight: 800; }
+
+/* labelled email and note layouts */
+.annot { display: grid; gap: 10px; }
+.arow { display: grid; grid-template-columns: 150px minmax(0, 1fr); gap: 12px; align-items: stretch; }
+.alabel { border: 2px solid var(--edge); border-radius: 12px; padding: 6px 10px; font-weight: 800; font-size: .86rem; display: flex; align-items: center; line-height: 1.25; }
+.arow:nth-child(5n+1) .alabel { background: var(--blue-soft); }
+.arow:nth-child(5n+2) .alabel { background: var(--yellow-soft); }
+.arow:nth-child(5n+3) .alabel { background: var(--pink-soft); }
+.arow:nth-child(5n+4) .alabel { background: var(--teal-soft); }
+.arow:nth-child(5n+5) .alabel { background: var(--brand-soft); }
+.abox { background: var(--paper); border: 2px solid var(--edge); border-radius: 12px; padding: 8px 12px; display: grid; gap: 2px; min-width: 0; overflow-wrap: anywhere; font-weight: 700; }
+@media (max-width: 620px) { .arow { grid-template-columns: minmax(0, 1fr); gap: 4px; } .alabel { justify-self: start; } }
+.sample { color: var(--brand-ink); font-weight: 800; border-bottom: 3px solid var(--yellow); }
+.gapn { font-size: .78rem; font-weight: 800; color: var(--brand-ink); margin-inline: 3px 2px; }
+.abox .fill-p { line-height: 2.3; }
+select.blank { width: 100%; max-width: 100%; text-overflow: ellipsis; }
+.annot, .arow > *, .abox p { min-width: 0; }
+.sents { counter-reset: s; display: grid; gap: 8px; margin: 0; padding: 0; list-style: none; }
+.sents li { display: flex; gap: 10px; align-items: flex-start; background: var(--surface); border: 2px solid var(--edge); border-radius: 12px; padding: 8px 12px; font-weight: 700; }
+.sents b { flex: none; width: 26px; height: 26px; border-radius: 50%; background: var(--pink); color: #231a5c; border: 2px solid var(--edge); display: grid; place-items: center; font-size: .85rem; }
+/* friendly check */
+.notepad { position: relative; background-color: var(--paper); background-image: repeating-linear-gradient(to bottom, transparent 0, transparent 31px, var(--rule) 31px, var(--rule) 32px); border: 3px solid var(--edge); border-radius: 8px 16px 16px 8px; padding: 0 12px 0 46px; }
+.notepad::before { content: ""; position: absolute; left: 34px; top: 0; bottom: 0; width: 2px; background: var(--margin); }
+.notepad:focus-within { outline: 3px solid var(--pink); outline-offset: 2px; }
+.notepad textarea { display: block; width: 100%; min-height: 384px; background: transparent; border: 0; outline: 0; resize: none; overflow: hidden; line-height: 32px; font-weight: 700; font-size: .98rem; padding: 0; }
+.notepad textarea::placeholder { color: var(--muted); font-weight: 600; }
+.res { display: grid; gap: 10px; }
+.stars { font-size: 1.6rem; letter-spacing: 3px; }
+.res-h { font-family: var(--font-display); font-weight: 800; font-size: 1.3rem; }
+.res-ok, .res-tip { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; }
+.res-ok li { background: var(--teal-soft); border: 2px solid var(--edge); border-radius: 12px; padding: 8px 12px; font-weight: 700; }
+.res-tip li { background: var(--yellow-soft); border: 2px solid var(--edge); border-radius: 12px; padding: 8px 12px; font-weight: 700; }
+
+/* stickers, listen and Malay help */
+.stickers { display: flex; flex-wrap: wrap; gap: 8px; }
+.sticker { width: 40px; height: 40px; border-radius: 50%; border: 3px solid var(--edge); background: var(--surface); display: grid; place-items: center; font-family: var(--font-display); font-weight: 800; color: var(--muted); }
+.sticker.on { background: var(--yellow); color: #0f3b4f; box-shadow: 0 3px 0 var(--edge); font-size: 1.2rem; }
+.tools { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+.bm { background: var(--blue-soft); border: 2px solid var(--edge); border-radius: 14px; padding: 8px 12px; font-weight: 700; }
+.bm::before { content: "BM  "; font-weight: 800; color: var(--brand-ink); }
+.pill-btn[aria-pressed="true"] { background: var(--teal); color: #0f3b4f; }
+@media (prefers-reduced-motion: reduce) { .meter-fill { transition: none; } .pill-btn:active, .btn:active, .lrow:active { transform: none; } }
+</style>
+
+<header class="topbar">
+  <div class="topbar-inner">
+    <div class="brand">
+      <span class="brand-badge">Year 5 Writing · Part 1</span>
+      <div class="brand-title">Email Writing</div>
+    </div>
+    <div class="tabs" role="tablist" aria-label="Pages">
+      <button class="tab" id="tab-home" role="tab" aria-selected="true" aria-controls="view-home">Home</button>
+      <button class="tab" id="tab-toolkit" role="tab" aria-selected="false" aria-controls="view-toolkit">Email Toolkit</button>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section id="view-home" role="tabpanel" aria-labelledby="tab-home">
+    <div class="card">
+      <div class="home-hero">
+        <div>
+          <span class="eyebrow">KSSR English · Year 5</span>
+          <h2>Learn to write an <em>email</em> or note</h2>
+          <p class="lead">Read the question. Learn how to answer it. Write in your exercise book. Send a photo to your teacher on WhatsApp.</p>
+          <div class="chips rainbow" aria-label="Every lesson">
+            <span class="chip">Read</span><span class="chip">Learn</span><span class="chip">Write</span><span class="chip">Check</span><span class="chip">Send</span>
+          </div>
+        </div>
+        <svg class="scene" viewBox="0 0 360 280" role="img" aria-label="A kampung house, a padi field and a letter flying in the sky">
+          <defs><linearGradient id="sk" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#5cc4ff"/><stop offset="1" stop-color="#d8f3ff"/></linearGradient></defs>
+          <rect width="360" height="280" fill="url(#sk)"/>
+          <circle cx="302" cy="52" r="36" fill="#ffd23f" fill-opacity=".45"/>
+          <circle cx="302" cy="52" r="24" fill="#ffd23f" stroke="#0f3b4f" stroke-width="3"/>
+          <g fill="#ffffff" stroke="#0f3b4f" stroke-width="3"><ellipse cx="62" cy="48" rx="34" ry="13"/><ellipse cx="86" cy="40" rx="20" ry="11"/><ellipse cx="236" cy="96" rx="28" ry="10"/></g>
+          <path d="M0 176 Q90 138 180 168 T360 160 V280 H0Z" fill="#7ddca0" stroke="#0f3b4f" stroke-width="3"/>
+          <path d="M0 214 Q120 186 250 208 T360 200 V280 H0Z" fill="#3ed598" stroke="#0f3b4f" stroke-width="3"/>
+          <path d="M18 236 Q130 214 250 232 M30 252 Q140 232 270 250" fill="none" stroke="#19b36b" stroke-width="4" stroke-linecap="round"/>
+          <g stroke="#0f3b4f" stroke-width="3" stroke-linejoin="round">
+            <path d="M40 166 H112 V196 H40Z" fill="#ffe0a0"/>
+            <path d="M30 168 L76 128 L122 168Z" fill="#e0703a"/>
+            <path d="M54 196 V214 M98 196 V214" fill="none" stroke-linecap="round"/>
+            <rect x="68" y="176" width="16" height="20" rx="2" fill="#7a4b2a"/>
+          </g>
+          <g stroke="#0f3b4f" stroke-width="3" stroke-linecap="round">
+            <path d="M318 210 Q312 170 322 128" fill="none" stroke="#8a5a2b" stroke-width="7"/>
+            <path d="M322 128 Q300 112 286 124 M322 128 Q346 112 356 126 M322 128 Q312 104 300 100 M322 128 Q336 104 348 102" fill="none" stroke="#19b36b" stroke-width="6"/>
+          </g>
+          <g transform="translate(132 60) rotate(-8 50 36)" stroke="#0f3b4f" stroke-width="3" stroke-linejoin="round">
+            <path d="M0 0 H100 V72 a8 8 0 0 1 -8 8 H8 a8 8 0 0 1 -8 -8Z" fill="#ff7a66"/>
+            <path d="M0 0 L50 44 L100 0" fill="#ffa090"/>
+            <path d="M0 80 L38 40 M100 80 L62 40" fill="none" stroke-linecap="round"/>
+          </g>
+        </svg>
+      </div>
+
+      <div class="prog-box">
+        <div class="prog-row">
+          <span class="prog-t" id="home-progress"></span>
+          <button class="btn" type="button" id="resume" hidden></button>
+        </div>
+        <div class="segs" id="segs" aria-hidden="true"></div>
+        <p class="hint" id="store-note" hidden>This browser cannot save your place after you close the page. Keep the page open while you learn.</p>
+      </div>
+
+      <div class="units" id="units"></div>
+    </div>
+  </section>
+
+  <section id="view-lesson" role="tabpanel" aria-label="Lesson" hidden>
+    <button class="pill-btn back" id="back" type="button">&larr; All lessons</button>
+    <div id="stage"></div>
+  </section>
+
+  <section id="view-toolkit" role="tabpanel" aria-labelledby="tab-toolkit" hidden>
+    <div class="card">
+      <span class="eyebrow">Email Toolkit</span>
+      <h2 style="font-size:clamp(1.9rem,5vw,2.6rem);margin:12px 0 6px">Help for writing an email</h2>
+      <p class="lead" style="margin-bottom:14px">Open this page any time while you write.</p>
+      <div class="tk-nav" id="tk-nav"></div>
+
+      <section class="tk-sec" id="tk-read">
+        <h3>How to read the question</h3>
+        <p class="lead">Look for four things before you write.</p>
+        <div class="legend" id="tk-legend"></div>
+      </section>
+
+      <section class="tk-sec" id="tk-parts">
+        <h3>The parts of an email</h3>
+        <div id="tk-parts-box"></div>
+      </section>
+
+      <section class="tk-sec" id="tk-note">
+        <h3>The parts of a note</h3>
+        <div id="tk-note-box"></div>
+      </section>
+
+      <section class="tk-sec" id="tk-phrases">
+        <h3>Phrase bank</h3>
+        <div class="phr-grid" id="tk-phr"></div>
+      </section>
+
+      <section class="tk-sec" id="tk-mistakes">
+        <h3>Common mistakes</h3>
+        <div class="mist" id="tk-mist"></div>
+      </section>
+
+      <section class="tk-sec" id="tk-count">
+        <h3>Word counter</h3>
+        <p class="lead">Type your email to count the words. Count from Dear to your last sentence. You need 30 to 50 words.</p>
+        <label class="sr" for="wc-text">Type your email here</label>
+        <textarea class="wc-area" id="wc-text" placeholder="Dear ..."></textarea>
+        <div class="counter" aria-live="polite">
+          <div class="counter-row"><span><span id="wc">0</span> words</span><span class="status" id="wstatus">Target: 30 to 50 words</span></div>
+          <div class="meter" id="meter" data-state="short"><div class="meter-zone"></div><div class="meter-fill" id="fill"></div></div>
+          <div class="ticks" aria-hidden="true"><span style="left:0;transform:none">0</span><span style="left:50%">30</span><span style="left:83.33%">50</span></div>
+        </div>
+        <div class="row-actions"><button class="pill-btn" id="wc-clear" type="button">Clear</button></div>
+      </section>
+    </div>
+  </section>
+</main>
+<script>
+(function () {
+  var $ = function (s, r) { return (r || document).querySelector(s); };
+  function words(t) { var m = t.trim().match(/\S+/g); return m ? m.length : 0; }
+  function el(tag, cls, txt) {
+    var e = document.createElement(tag);
+    if (cls) e.className = cls;
+    if (txt != null) e.textContent = txt;
+    return e;
+  }
+  function h(tag, cls, html) { var e = el(tag, cls); e.innerHTML = html; return e; }
+  function pad2(n) { return (n < 10 ? '0' : '') + n; }
+  function chipList(list, cls) {
+    return '<div class="chips ' + (cls || '') + '">' + list.map(function (w) { return '<span class="chip">' + w + '</span>'; }).join('') + '</div>';
+  }
+  function frameList(list) {
+    return '<div class="frames">' + list.map(function (f) { return '<div class="frame">' + f + '</div>'; }).join('') + '</div>';
+  }
+
+  /* ---------- saved state: done lessons, place in each lesson, typed answers, name, hobbies ---------- */
+  var KEY = 'email-y5-state-v4';
+  var storageOK = true;
+  try { localStorage.setItem('e5-test', '1'); localStorage.removeItem('e5-test'); } catch (e) { storageOK = false; }
+  function readRaw() {
+    try { if (storageOK) { var v = localStorage.getItem(KEY); if (v) return v; } } catch (e) {}
+    try { if (window.name && window.name.indexOf('e5:') === 0) return window.name.slice(3); } catch (e) {}
+    return null;
+  }
+  function writeRaw(s) {
+    if (storageOK) { try { localStorage.setItem(KEY, s); } catch (e) { storageOK = false; } }
+    try { window.name = 'e5:' + s; } catch (e) {}
+  }
+  var ACTS = ['playing badminton', 'reading comics', 'drawing', 'riding my bicycle', 'playing football', 'swimming', 'cooking', 'taking photos'];
+  var S = { d: [], p: {}, f: {}, t: {}, n: '', a: ['playing football', 'riding my bicycle', 'playing badminton'], bm: false };
+  function cleanName(s) { return String(s).replace(/[<>&"\\{}]/g, '').replace(/\s+/g, ' ').slice(0, 20).trim(); }
+  try {
+    var saved = JSON.parse(readRaw() || '{}');
+    if (Array.isArray(saved.d)) S.d = saved.d;
+    if (saved.p && typeof saved.p === 'object') S.p = saved.p;
+    if (saved.f && typeof saved.f === 'object') S.f = saved.f;
+    if (saved.t && typeof saved.t === 'object') S.t = saved.t;
+    if (typeof saved.n === 'string') S.n = cleanName(saved.n);
+    if (saved.bm === true) S.bm = true;
+    if (Array.isArray(saved.a) && saved.a.length === 3 && saved.a.every(function (a) { return ACTS.indexOf(a) > -1; })) S.a = saved.a;
+  } catch (e) {}
+  function save() { writeRaw(JSON.stringify(S)); }
+  function F(s) {
+    return s.replace(/\{(name|nameU|nameEx|a1|a2|a3)\}/g, function (m, k) {
+      if (k === 'name') return S.n || '(your name)';
+      if (k === 'nameU') return S.n || '____________';
+      if (k === 'nameEx') return S.n || 'Aina';
+      return S.a[Number(k.charAt(1)) - 1];
+    });
+  }
+
+  /* ---------- listen (reads aloud with the phone's own voice, no internet needed) ---------- */
+  var canSpeak = 'speechSynthesis' in window && typeof SpeechSynthesisUtterance !== 'undefined';
+  function speak(text) {
+    if (!canSpeak) return;
+    try {
+      window.speechSynthesis.cancel();
+      var u = new SpeechSynthesisUtterance(text.replace(/_+/g, ' blank '));
+      u.lang = 'en-GB'; u.rate = 0.85;
+      window.speechSynthesis.speak(u);
+    } catch (e) {}
+  }
+  function stopSpeak() { if (canSpeak) { try { window.speechSynthesis.cancel(); } catch (e) {} } }
+  function listenBtn(getText, label) {
+    var b = el('button', 'pill-btn', label || '🔊 Listen'); b.type = 'button';
+    b.addEventListener('click', function () { speak(getText()); });
+    return b;
+  }
+  var BM = {
+    'Get ready': 'Sediakan buku latihan Bahasa Inggeris dan pensel. Buka muka surat baharu.',
+    'Read the question': 'Baca soalan. Cari 4 perkara: Who (kepada siapa), Why (mengapa), Points (perkara yang perlu dijawab) dan Words (bilangan perkataan).',
+    'Make notes in your book': 'Tulis nota ringkas dalam buku anda. Guna perkataan pendek, bukan ayat penuh.',
+    'Fill in the email': 'Taip perkataan dalam ruang kosong untuk melengkapkan e-mel.',
+    'Complete the note': 'Pilih satu ayat untuk setiap ruang kosong. Fikirkan susunan yang paling sesuai.',
+    'Write in your book': 'Tulis dalam buku latihan anda dengan kemas. Mulakan ayat dengan huruf besar.',
+    'Check your writing': 'Taip apa yang anda tulis dalam buku. Anda akan dapat tip yang mesra. Ini bukan ujian.',
+    'Send your photo': 'Ambil gambar muka surat anda dalam cahaya yang terang. Hantar kepada cikgu melalui WhatsApp.',
+    '*': 'Baca contoh ayat di sini. Anda boleh guna ayat ini untuk menjawab soalan.'
+  };
+
+  /* ---------- pages ---------- */
+  var tabs = { home: $('#tab-home'), toolkit: $('#tab-toolkit') };
+  var views = { home: $('#view-home'), lesson: $('#view-lesson'), toolkit: $('#view-toolkit') };
+  function showTab(name) {
+    Object.keys(views).forEach(function (k) { views[k].hidden = k !== name; });
+    tabs.home.setAttribute('aria-selected', String(name !== 'toolkit'));
+    tabs.toolkit.setAttribute('aria-selected', String(name === 'toolkit'));
+    window.scrollTo(0, 0);
+  }
+  tabs.home.addEventListener('click', function () { renderHome(); showTab('home'); });
+  tabs.toolkit.addEventListener('click', function () { showTab('toolkit'); });
+  $('#back').addEventListener('click', function () { renderHome(); showTab('home'); });
+
+  /* ---------- pieces ---------- */
+  function bookPage(lines, cap) {
+    var wrap = el('div');
+    wrap.appendChild(el('p', 'book-cap', cap || 'How your page looks'));
+    var pg = el('div', 'book-page');
+    lines.forEach(function (l) { var d = el('div', 'bline'); if (l) d.textContent = l; pg.appendChild(d); });
+    wrap.appendChild(pg);
+    return wrap;
+  }
+  var LEGEND = [['m-who', 'Who', 'who'], ['m-why', 'Why', 'why'], ['m-pt', 'Points', 'pts'], ['m-wd', 'Words', 'words']];
+  function legendNode(t) {
+    var d = el('div', 'legend');
+    LEGEND.forEach(function (l) {
+      var r = el('div', 'leg');
+      r.appendChild(el('mark', l[0], l[1]));
+      r.appendChild(el('p', null, t[l[2]]));
+      d.appendChild(r);
+    });
+    return d;
+  }
+
+  /* Labelled layout of an email or a note.
+     rows: [label, paragraphs]. A paragraph is an array of parts. A part is a string or a gap:
+     {n: number, w: width, s: sample answer, sel: [options]}.
+     mode 'sample' shows the sample answers. mode 'fill' shows boxes to type in; lesson is the lesson index for saving. */
+  function annot(rows, mode, lesson) {
+    var wrap = el('div', 'annot');
+    var gi = 0;
+    var vals = (S.f[lesson] = S.f[lesson] || []);
+    rows.forEach(function (r) {
+      var row = el('div', 'arow');
+      row.appendChild(el('div', 'alabel', r[0]));
+      var box = el('div', 'abox');
+      r[1].forEach(function (para) {
+        var p = el('p', mode === 'fill' ? 'fill-p' : null);
+        para.forEach(function (part) {
+          if (typeof part === 'string') { p.appendChild(document.createTextNode(part)); return; }
+          if (mode === 'sample') {
+            p.appendChild(el('span', 'gapn', '(' + part.n + ')'));
+            p.appendChild(el('span', 'sample', F(part.s)));
+            return;
+          }
+          var idx = gi++, c;
+          p.appendChild(el('span', 'gapn', '(' + part.n + ')'));
+          if (part.sel) {
+            c = document.createElement('select'); c.className = 'blank';
+            c.setAttribute('aria-label', 'Choose for gap ' + part.n);
+            var o0 = document.createElement('option'); o0.value = ''; o0.textContent = 'choose'; c.appendChild(o0);
+            part.sel.forEach(function (t) { var o = document.createElement('option'); o.value = t; o.textContent = t; c.appendChild(o); });
+          } else {
+            c = document.createElement('input'); c.type = 'text'; c.className = 'blank';
+            c.maxLength = 40; c.autocomplete = 'off'; c.autocapitalize = 'off'; c.spellcheck = false;
+            c.setAttribute('aria-label', 'Type for gap ' + part.n);
+            c.style.width = (part.w || 12) + 'ch';
+          }
+          var v = vals[idx];
+          if (v == null && part.fillName) { v = S.n; if (v) vals[idx] = v; }
+          if (v != null) c.value = v;
+          c.addEventListener('input', function () { vals[idx] = c.value; save(); });
+          c.addEventListener('change', function () { vals[idx] = c.value; save(); });
+          p.appendChild(c);
+        });
+        box.appendChild(p);
+      });
+      row.appendChild(box);
+      wrap.appendChild(row);
+    });
+    return wrap;
+  }
+
+  /* The pupil's finished email or note, built from the gaps they filled in. Returns lines and how many gaps are empty. */
+  function compose(rows, lesson, blankAfter) {
+    var vals = S.f[lesson] || [], gi = 0, out = [], missing = 0;
+    rows.forEach(function (r, ri) {
+      r[1].forEach(function (para) {
+        var line = '';
+        para.forEach(function (part) {
+          if (typeof part === 'string') { line += part; return; }
+          var v = String(vals[gi++] || '').trim();
+          if (!v) { v = '______'; missing++; }
+          line += v;
+        });
+        out.push(line);
+      });
+      if (ri === blankAfter) out.push('');
+    });
+    return { lines: out, missing: missing };
+  }
+
+  var HEAD = 'Name: {nameU}  Class: ______  Date: ______';
+  var WORD_TIP = 'Count the words. Put a small dot under every 10th word. You need 3 to 5 dots.';
+  function pt(t) { return '<mark class="m-pt">' + t + '</mark>'; }
+  function plainQ(html) { return '<div class="q-text">' + html + '</div>'; }
+  function qhtml(intro, who, why, ask, pts, tail) {
+    return '<p>' + intro + '</p><p>' + ask + '</p><ul>' + pts.map(function (p) { return '<li>' + pt(p) + '</li>'; }).join('') + '</ul><p><mark class="m-wd">' + tail + '</mark></p>';
+  }
+  function mk(cls, t) { return '<mark class="' + cls + '">' + t + '</mark>'; }
+
+  /* ---------- the five lessons ---------- */
+  /* {name}, {nameU}, {nameEx}, {a1}, {a2}, {a3} are filled with the pupil's own name and hobbies. */
+  var UNITS = [
+    { name: 'Learn with a guide', about: 'Learn the parts of an email and a note. Fill in the gaps first.', cls: 'u0' },
+    { name: 'Write with help', about: 'Write a message and an email with sentence help.', cls: 'u1' },
+    { name: 'Write on your own', about: 'Read the question and write with no gaps to fill.', cls: 'u2' }
+  ];
+
+  var EMAIL_ROWS = [
+    ["Receiver's email", [['To: yuki@mail.com']]],
+    ["Sender's email", [['From: yourname@mail.com']]],
+    ['Subject', [['Subject: Hello from Malaysia']]],
+    ['Salutation and name of the person you write to', [['Hello Yuki,']]],
+    ['Content (body)', [
+      ['My name is ', { n: 1, w: 10, s: '{nameEx}', fillName: true }, '. I am ', { n: 2, w: 4, s: '11' }, ' years old and I live in ', { n: 3, w: 16, s: 'Kampung Seri Aman' }, '. I go to ', { n: 4, w: 16, s: 'SK Kampung Baru' }, '.'],
+      ['After school, I like ', { n: 5, w: 18, s: '{a1}' }, '. My favourite food is ', { n: 6, w: 12, s: 'nasi lemak' }, '.'],
+      ['Nice to meet you!']
+    ]],
+    ['Closure', [['Bye for now and hope you reply soon.']]],
+    ['Complimentary close', [['Regards,']]],
+    ['Name of sender', [[{ n: 7, w: 12, s: '{nameEx}', fillName: true }]]]
+  ];
+  var NOTE_SENTS = [
+    ['Can you collect the exercise books from the class for me?', 'A'],
+    ['I must go to my cousin\'s wedding on Friday.', 'B'],
+    ['Thank you very much!', 'C'],
+    ['I will buy you a drink on Monday to say thank you.', 'D']
+  ];
+  var NOTE_OPTS = NOTE_SENTS.map(function (s) { return s[0]; });
+  var NOTE_ROWS = [
+    ['Day', [['Thursday']]],
+    ['Greeting and name of the person you write to', [['Dear Raju,']]],
+    ['Body', [
+      ['I need a favour from you.'],
+      [{ n: 1, sel: NOTE_OPTS, s: NOTE_OPTS[1] }],
+      [{ n: 2, sel: NOTE_OPTS, s: NOTE_OPTS[0] }],
+      [{ n: 3, sel: NOTE_OPTS, s: NOTE_OPTS[3] }],
+      [{ n: 4, sel: NOTE_OPTS, s: NOTE_OPTS[2] }]
+    ]],
+    ['Sign-off (it depends on how you feel about the person)', [[{ n: 5, sel: ['Yours truly,', 'Yours,', 'Love,', 'Best wishes,'], s: 'Best wishes,' }]]],
+    ["Writer's name", [[{ n: 6, w: 12, s: '{nameEx}', fillName: true }]]]
+  ];
+
+  var LESSONS = [
+    {
+      unit: 0, name: 'Introduce yourself', time: 40, can: 'read the question and write an email to introduce myself.',
+      q: {
+        html: '<p>Your class has a new pen pal, ' + mk('m-who', 'Yuki') + ', from Japan. You need to ' + mk('m-why', 'write an email to Yuki to introduce yourself') + '.</p><p>Write an email and tell her</p><ul><li>' + pt('your personal details (name, age, town, school)') + '</li><li>' + pt('what you like to do after school') + '</li><li>' + pt('your favourite food') + '</li></ul><p>' + mk('m-wd', 'Write about 30 to 50 words.') + ' Complete the email below.</p>',
+        legend: { who: 'Yuki. She is a girl, so you write Hello Yuki,', why: 'You introduce yourself. Say who you are.', pts: 'Three points: your details, what you like to do, your favourite food. Answer all three.', words: 'Write 30 to 50 words in the body.' }
+      },
+      notes: ['Notes', 'Who:', 'Why:', 'Point 1:', 'Point 2:', 'Point 3:', 'Words:'],
+      notesAns: ['Who: Yuki', 'Why: to introduce myself', 'Point 1: my name, age, town, school', 'Point 2: what I like to do after school', 'Point 3: my favourite food', 'Words: 30 to 50'],
+      learn: [
+        ['The parts of an email', function () {
+          var d = el('div', 'wleft');
+          d.appendChild(el('p', 'lead', 'An email has these parts. The underlined words are an example.'));
+          d.appendChild(annot(EMAIL_ROWS, 'sample', 0));
+          return d;
+        }]
+      ],
+      fillTitle: 'Fill in the email', fillLead: 'Type in the gaps with your own details. Then go to the next step.',
+      fillNode: function (i) { return annot(EMAIL_ROWS, 'fill', i); },
+      composeRows: 'email',
+      task: plainQ('<p>Your email is ready. Copy it into your exercise book.</p><p>Write neatly. Use capital letters for names and the start of sentences.</p>'),
+      lines: [HEAD, '', 'To: yuki@mail.com', 'From: yourname@mail.com', 'Subject: Hello from Malaysia', '', 'Hello Yuki,', '', '', '', '', 'Bye for now and hope you reply soon.', 'Regards,', '{name}']
+    },
+    {
+      unit: 0, name: 'Write a note', time: 30, can: 'write a short note with sentences that are given.',
+      q: {
+        html: '<p>You are the class monitor, but you must go to a family wedding on Friday. You need help from your classmate, ' + mk('m-who', 'Raju') + ', to ' + mk('m-why', 'collect the exercise books') + ' for you.</p><p>Write a note and tell him</p><ul><li>' + pt('why you need his help') + '</li><li>' + pt('what he has to do for you') + '</li><li>' + pt('how you will thank him') + '</li></ul><p>' + mk('m-wd', 'Write about 30 to 50 words.') + ' Complete the note with the sentences provided.</p>',
+        legend: { who: 'Raju. He is a boy, so you write Dear Raju,', why: 'You need a favour. You will be away on Friday.', pts: 'Three points: why, what he must do, how you will thank him.', words: 'Write 30 to 50 words.' }
+      },
+      notes: ['Notes', 'Who:', 'Why:', 'Point 1:', 'Point 2:', 'Point 3:', 'Words:'],
+      notesAns: ['Who: Raju', 'Why: I need a favour', 'Point 1: why I need his help', 'Point 2: what he has to do', 'Point 3: how I will thank him', 'Words: 30 to 50'],
+      learn: [
+        ['The parts of a note', function () {
+          var d = el('div', 'wleft');
+          d.appendChild(el('p', 'lead', 'A note is shorter than an email. It has these parts.'));
+          d.appendChild(annot(NOTE_ROWS, 'sample', 1));
+          d.appendChild(h('div', null, '<p class="col-q">Choose your sign-off</p>' + frameList(['<b>Love,</b> for family and close friends', '<b>Best wishes,</b> for friends', '<b>Yours truly,</b> for a teacher or an adult'])));
+          return d;
+        }]
+      ],
+      fillTitle: 'Complete the note', fillLead: 'Read the sentences. Choose one sentence for each gap. Think about the best order.',
+      fillTop: function () {
+        var l = el('ul', 'sents');
+        [NOTE_SENTS[0], NOTE_SENTS[1], NOTE_SENTS[3], NOTE_SENTS[2]].forEach(function (s, k) {
+          var li = document.createElement('li'); li.appendChild(el('b', null, 'ABCD'.charAt(k))); li.appendChild(el('span', null, s[0])); l.appendChild(li);
+        });
+        return l;
+      },
+      fillNode: function (i) { return annot(NOTE_ROWS, 'fill', i); },
+      composeRows: 'note',
+      task: plainQ('<p>Your note is ready. Copy it into your exercise book.</p><p>Write the day, the greeting, the body, the sign-off and your name.</p>'),
+      lines: [HEAD, '', 'Thursday', 'Dear Raju,', 'I need a favour from you.', '', '', '', '', 'Best wishes,', '{name}']
+    },
+    {
+      unit: 1, name: 'Write a message', time: 30, can: 'write a message with three points.',
+      q: {
+        html: '<p>Your cousin, ' + mk('m-who', 'Nadia') + ', is coming to your house this Saturday. You ' + mk('m-why', 'want to take her out') + '.</p><p>Write a message to Nadia and tell her</p><ul><li>' + pt('why you want to go out') + '</li><li>' + pt('where you want to go') + '</li><li>' + pt('when and where to meet') + '</li></ul><p>' + mk('m-wd', 'Write about 30 to 50 words.') + '</p>',
+        legend: { who: 'Nadia. She is a girl, so you write her name in the greeting.', why: 'She is visiting you. You want to take her out.', pts: 'Three points: why, where, and when and where to meet.', words: 'Write 30 to 50 words.' }
+      },
+      notes: ['Notes', 'Who:', 'Why:', 'Point 1:', 'Point 2:', 'Point 3:', 'Words:'],
+      notesAns: ['Who: Nadia', 'Why: she is visiting me', 'Point 1: why I want to go out', 'Point 2: where we will go', 'Point 3: when and where to meet', 'Words: 30 to 50'],
+      learn: [
+        ['Sentences you can use', function () {
+          return h('div', 'wleft', '<p class="col-q">Use these to answer each point.</p>' + frameList([
+            '<b>Greeting:</b> Hi Nadia! / Dear Nadia,',
+            '<b>Why:</b> I am so happy that you are visiting me. / I want to show you my town.',
+            '<b>Where:</b> Let\'s go to the <b>river</b>. We can swim and catch small fish.',
+            '<b>When and where:</b> Let\'s meet at <b>ten o\'clock</b> in front of the <b>shop</b>.',
+            '<b>End:</b> See you on Saturday!'
+          ]) + '<p class="why">Tip: begin with a friendly greeting.</p>');
+        }]
+      ],
+      task: plainQ('<p>Your cousin, <strong>Nadia</strong>, is coming to your house this Saturday. You want to take her out.</p><p>Write a message to Nadia and tell her</p><ul><li>why you want to go out</li><li>where you want to go</li><li>when and where to meet</li></ul><p><strong>Write about 30 to 50 words.</strong></p>'),
+      frames: ['<b>Greeting:</b> Hi Nadia!', '<b>Why:</b> I am so happy that ...', '<b>Where:</b> Let\'s go to ... We can ...', '<b>When and where:</b> Let\'s meet at ... in front of ...', '<b>End:</b> See you on Saturday!'],
+      tip: WORD_TIP,
+      lines: [HEAD, '', 'Hi Nadia!', '', '', '', '', '', 'See you on Saturday!', 'Love,', '{name}']
+    },
+    {
+      unit: 1, name: 'Say sorry by email', time: 30, can: 'write an email to say sorry and give a reason.',
+      q: {
+        html: '<p>Your friend, ' + mk('m-who', 'Kumar') + ', invited you to his birthday party tomorrow. You ' + mk('m-why', 'cannot go') + ' because you are not well.</p><p>Write an email and tell him</p><ul><li>' + pt('you are sorry') + '</li><li>' + pt('why you cannot go') + '</li><li>' + pt('when and where you can meet another day') + '</li></ul><p>' + mk('m-wd', 'Write about 30 to 50 words.') + '</p>',
+        legend: { who: 'Kumar. He is a boy, so you write Dear Kumar,', why: 'He invited you to a party, but you cannot go.', pts: 'Three points: say sorry, give a reason, and say when and where to meet.', words: 'Write 30 to 50 words.' }
+      },
+      notes: ['Notes', 'Who:', 'Why:', 'Point 1:', 'Point 2:', 'Point 3:', 'Words:'],
+      notesAns: ['Who: Kumar', 'Why: I cannot go to his party', 'Point 1: I am sorry', 'Point 2: a good reason', 'Point 3: when and where to meet another day', 'Words: 30 to 50'],
+      learn: [
+        ['Sentences you can use', function () {
+          return h('div', 'wleft', '<p class="col-q">Use these to answer each point.</p>' + frameList([
+            '<b>Say sorry:</b> I am sorry, but I cannot come to your party.',
+            '<b>Reason:</b> I have a bad cold and a sore throat. / My doctor says I must rest.',
+            '<b>Another day:</b> Can we meet on <b>Sunday</b> at the <b>playground</b>?',
+            '<b>End:</b> Happy birthday! I hope you have a lovely party.'
+          ]) + '<p class="why">Tip: think of a good reason why you cannot go.</p>');
+        }]
+      ],
+      task: plainQ('<p>Your friend, <strong>Kumar</strong>, invited you to his birthday party tomorrow. You cannot go because you are not well.</p><p>Write an email and tell him</p><ul><li>you are sorry</li><li>why you cannot go</li><li>when and where you can meet another day</li></ul><p><strong>Write about 30 to 50 words.</strong></p>'),
+      frames: ['<b>Greeting:</b> Dear Kumar,', '<b>Sorry:</b> I am sorry, but I cannot ...', '<b>Reason:</b> I have ...', '<b>Another day:</b> Can we meet on ... at ...?', '<b>End:</b> Happy birthday!'],
+      tip: WORD_TIP,
+      lines: [HEAD, '', 'To: kumar@mail.com', 'From: yourname@mail.com', 'Subject: Your birthday party', '', 'Dear Kumar,', '', '', '', '', '', 'Regards,', '{name}']
+    },
+    {
+      unit: 2, name: 'Say thank you', time: 30, can: 'read the question and write an email on my own.',
+      q: {
+        html: '<p>Your ' + mk('m-who', 'Grandma') + ' sent you a ' + mk('m-why', 'birthday present') + '.</p><p>Write an email to Grandma and tell her</p><ul><li>' + pt('thank you for the present') + '</li><li>' + pt('what you like about it') + '</li><li>' + pt('what you will do with it') + '</li></ul><p>' + mk('m-wd', 'Write about 30 to 50 words.') + '</p>',
+        legend: { who: 'Grandma. You write Dear Grandma,', why: 'She sent you a birthday present. You say thank you.', pts: 'Three points: thank her, what you like about it, what you will do with it.', words: 'Write 30 to 50 words.' }
+      },
+      notes: ['Notes', 'Who:', 'Why:', 'Point 1:', 'Point 2:', 'Point 3:', 'Words:'],
+      notesAns: ['Who: Grandma', 'Why: she sent me a present', 'Point 1: thank her', 'Point 2: what I like about it', 'Point 3: what I will do with it', 'Words: 30 to 50'],
+      learn: [
+        ['Remember the parts', function () {
+          return h('div', 'wleft', '<p class="col-q">No sentence help today. Remember the parts.</p>' + frameList([
+            '<b>To / From / Subject</b> at the top',
+            '<b>Salutation</b> Dear Grandma,',
+            '<b>Body</b> one sentence for each point',
+            '<b>Closure</b> a friendly last sentence',
+            '<b>Complimentary close</b> and <b>your name</b>'
+          ]) + '<p class="why">Read your email aloud when you finish. Fix one mistake.</p>');
+        }]
+      ],
+      task: plainQ('<p>Your Grandma sent you a birthday present.</p><p>Write an email to Grandma and tell her</p><ul><li>thank you for the present</li><li>what you like about it</li><li>what you will do with it</li></ul><p><strong>Write about 30 to 50 words.</strong></p>'),
+      tip: WORD_TIP,
+      lines: [HEAD, '', 'To: grandma@mail.com', 'From: yourname@mail.com', 'Subject: Thank you!', '', 'Dear Grandma,', '', '', '', '', '', 'Love,', '{name}']
+    }
+  ];
+
+  /* ---------- friendly checking: what to look for in each lesson ---------- */
+  var SIGN_RE = 'regards|yours|best wishes|love|your friend|your cousin|your grandson|your granddaughter|sincerely|cheers|bye';
+  var CHECKS = [
+    { to: 'Yuki', pts: [['your name, age, town or school', 'my name is|i am|years old|i live|i go to'], ['what you like to do', 'like|love|enjoy|hobby|play|draw|read|swim|cook'], ['your favourite food', 'food|favourite|favorite|eat|nasi|rice|noodle|chicken']] },
+    { to: 'Raju', pts: [['why you need his help', 'wedding|must go|cannot|can.t|need a favour|away'], ['what he has to do', 'collect|exercise books|books|help'], ['how you will thank him', 'thank|drink|treat|buy']] },
+    { to: 'Nadia', pts: [['why you want to go out', 'happy|glad|visit|show|want|take you|excited'], ['where you want to go', 'go to|going to|let.s go|take you to|visit|river|padi|pond|field|waterfall|zoo|park|beach|market|pasar|shop|lake'], ['when and where to meet', 'meet|o.clock|[0-9] ?(am|pm)|in front of|outside|gate|station|at the']] },
+    { to: 'Kumar', pts: [['saying sorry', 'sorry|apolog'], ['why you cannot go', 'because|cold|fever|sick|not well|doctor|rest|headache|cough|stomach'], ['when and where to meet another day', 'meet|another day|next|sunday|saturday|weekend|monday|tuesday|wednesday|thursday|friday|playground|park|can we']] },
+    { to: 'Grandma', pts: [['thanking her for the present', 'thank'], ['what you like about it', 'like|love|lovely|beautiful|nice|pretty|favourite|useful|colour|soft|big|strong|cute'], ['what you will do with it', 'will|going to|use|wear|read|play|carry|keep|put']] }
+  ];
+  function escRe(s) { return s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'); }
+  function checkWriting(text, cfg) {
+    var t = text.replace(/[‘’]/g, "'");
+    var lines = t.split(/\n/).map(function (l) { return l.trim(); }).filter(Boolean);
+    var body = lines.filter(function (l) { return !/^(to|from|subject)\s*:/i.test(l); });
+    var ok = [], tips = [], total = 0, good = 0;
+    function part(pass, yes, no) { total++; if (pass) { good++; ok.push(yes); } else tips.push(no); }
+    var g = body.filter(function (l) { return /^(dear|hello|hi)\b/i.test(l); })[0];
+    part(g && new RegExp(escRe(cfg.to), 'i').test(g), 'You started with a greeting and the name.', 'Start with a greeting and the name. For example: Dear ' + cfg.to + ',');
+    cfg.pts.forEach(function (p) {
+      part(new RegExp(p[1], 'i').test(t), 'You wrote about ' + p[0] + '.', 'Add a sentence about ' + p[0] + '.');
+    });
+    var tail = body.slice(-3).join(' ');
+    part(new RegExp(SIGN_RE, 'i').test(tail), 'You ended with a sign-off.', 'End with a sign-off. For example: Love, or Regards,');
+    if (S.n) part(new RegExp(escRe(S.n), 'i').test(tail), 'You wrote your name at the end.', 'Write your name under the sign-off.');
+    var n = words(body.join(' '));
+    total++;
+    if (n >= 28 && n <= 55) { good++; ok.push('Good length: about ' + n + ' words.'); }
+    else if (n < 28) tips.push('You wrote about ' + n + ' words. Add one more sentence to reach 30 to 50.');
+    else tips.push('You wrote about ' + n + ' words. Take out one sentence to stay near 50.');
+    var text2 = body.join('\n'), lang = [];
+    if (/(^|[\s"(])i(?=[\s,.!?'])/.test(text2)) lang.push('Write the word I with a capital letter.');
+    if (body.some(function (l) { return /(^|[.!?]\s+)[a-z]/.test(l); })) lang.push('Start each sentence with a capital letter.');
+    if (/\b(am|are|is) go\b/i.test(text2)) lang.push('Say going: We are going to ...');
+    if (/\bin [0-9]+ ?o'?clock/i.test(text2)) lang.push("Say at with a clock time: at ten o'clock.");
+    if (/\b(dear|hello|hi)\s+[a-z]+\s*,/.test(text2)) lang.push('Names start with a capital letter.');
+    return { ok: ok, tips: tips.concat(lang.slice(0, 2)).slice(0, 4), good: good, total: total };
+  }
+  function checkNode(i) {
+    var d = el('div', 'wleft');
+    d.appendChild(el('p', 'lead', 'Type what you wrote in your book. You will get friendly tips. This is not a test.'));
+    var pad = el('div', 'notepad');
+    var ta = document.createElement('textarea');
+    ta.setAttribute('aria-label', 'Type what you wrote in your book');
+    ta.placeholder = 'Type your writing here, line by line, like in your book...';
+    ta.value = S.t[i] || '';
+    ta.rows = 12;
+    pad.appendChild(ta);
+    function grow() { ta.style.height = 'auto'; ta.style.height = Math.max(384, Math.ceil(ta.scrollHeight / 32) * 32) + 'px'; }
+    var cnt = el('p', 'hint'); cnt.setAttribute('aria-live', 'polite');
+    function upd() { cnt.textContent = words(ta.value) + ' words'; }
+    ta.addEventListener('input', function () { S.t[i] = ta.value; save(); upd(); grow(); });
+    setTimeout(grow, 0);
+    upd();
+    var btn = el('button', 'btn', 'Check my writing'); btn.type = 'button'; btn.style.justifySelf = 'start';
+    var res = el('div', 'res'); res.setAttribute('role', 'status');
+    btn.addEventListener('click', function () {
+      res.textContent = '';
+      if (words(ta.value) < 3) { res.appendChild(el('p', 'why', 'Type your writing in the box first.')); return; }
+      var r = checkWriting(ta.value, CHECKS[i]);
+      var stars = el('p', 'stars', '⭐'.repeat(r.good) + '☆'.repeat(r.total - r.good));
+      stars.setAttribute('aria-label', r.good + ' of ' + r.total);
+      res.appendChild(stars);
+      res.appendChild(el('p', 'res-h', r.tips.length === 0 ? 'Great job! Your writing has everything.' : 'Good start! Here is how to make it even better.'));
+      if (r.ok.length) {
+        var ul = el('ul', 'res-ok');
+        r.ok.forEach(function (x) { ul.appendChild(el('li', null, '✓ ' + x)); });
+        res.appendChild(ul);
+      }
+      if (r.tips.length) {
+        var ul2 = el('ul', 'res-tip');
+        r.tips.forEach(function (x) { ul2.appendChild(el('li', null, '💡 ' + x)); });
+        res.appendChild(ul2);
+        res.appendChild(el('p', 'hint', 'Fix one or two things in your book. Then send your photo.'));
+      }
+    });
+    var row = el('div', 'tools'); row.appendChild(btn);
+    if (canSpeak) row.appendChild(listenBtn(function () { return ta.value; }, '🔊 Listen to my writing'));
+    d.appendChild(pad); d.appendChild(cnt); d.appendChild(row); d.appendChild(res);
+    return d;
+  }
+
+  /* ---------- progress ---------- */
+  var done = LESSONS.map(function (l, i) { return S.d[i] === true; });
+  var timerId = null;
+  function saveDone() { S.d = done.slice(); save(); }
+  function nextLesson() {
+    for (var i = 0; i < LESSONS.length; i++) if (!done[i]) return i;
+    return -1;
+  }
+  /* ---------- home ---------- */
+  function openLesson(i) { renderLesson(i); showTab('lesson'); }
+  function renderHome() {
+    $('#store-note').hidden = storageOK;
+    var n = done.filter(Boolean).length;
+    $('#home-progress').textContent = n === 0 ? 'Not started yet. ' + LESSONS.length + ' lessons.' : n + ' of ' + LESSONS.length + ' lessons done';
+    var segs = $('#segs'); segs.textContent = ''; segs.className = 'stickers';
+    LESSONS.forEach(function (l, i) { segs.appendChild(el('span', 'sticker' + (done[i] ? ' on' : ''), done[i] ? '⭐' : String(i + 1))); });
+    var res = $('#resume'), nx = nextLesson();
+    if (nx === -1) { res.hidden = true; }
+    else {
+      res.hidden = false;
+      var started = n > 0 || (S.p[nx] > 0);
+      res.textContent = (started ? 'Continue' : 'Start') + ': Lesson ' + (nx + 1);
+      res.onclick = function () { openLesson(nx); };
+    }
+    var host = $('#units'); host.textContent = '';
+    UNITS.forEach(function (u, ui) {
+      var panel = el('section', 'unit ' + u.cls);
+      panel.appendChild(h('div', 'unit-h', '<span class="eyebrow">Unit ' + (ui + 1) + '</span><h3>' + u.name + '</h3><p>' + u.about + '</p>'));
+      var list = el('div', 'lessons');
+      LESSONS.forEach(function (L, li) {
+        if (L.unit !== ui) return;
+        var btn = el('button', 'lrow' + (done[li] ? ' is-done' : ''));
+        btn.type = 'button';
+        btn.appendChild(el('span', 'num', String(li + 1)));
+        var t = el('span', 'lrow-t'); t.appendChild(el('b', null, L.name)); t.appendChild(el('small', null, L.time + ' minutes'));
+        btn.appendChild(t);
+        btn.appendChild(el('span', 'lrow-s', done[li] ? 'Done' : (S.p[li] > 0 ? 'Go on' : 'Start')));
+        btn.addEventListener('click', function () { openLesson(li); });
+        list.appendChild(btn);
+      });
+      panel.appendChild(list);
+      host.appendChild(panel);
+    });
+  }
+
+  /* ---------- one lesson: one screen at a time ---------- */
+  var stage = $('#stage');
+  function timerNode(mins) {
+    var wrap = el('div', 'timer');
+    var out = el('span', 'timer-t', pad2(mins) + ':00');
+    var btn = el('button', 'pill-btn', 'Start timer'); btn.type = 'button';
+    var note = el('span', 'hint'); note.setAttribute('role', 'status');
+    var left = mins * 60;
+    function draw() { out.textContent = pad2(Math.floor(left / 60)) + ':' + pad2(left % 60); }
+    btn.addEventListener('click', function () {
+      if (timerId) { clearInterval(timerId); timerId = null; btn.textContent = 'Start timer'; return; }
+      if (left <= 0) left = mins * 60;
+      note.textContent = ''; btn.textContent = 'Pause'; draw();
+      timerId = setInterval(function () {
+        left -= 1; draw();
+        if (left <= 0) {
+          clearInterval(timerId); timerId = null; btn.textContent = 'Start timer';
+          note.textContent = 'Time is up. Finish your sentence and send your photo.';
+        }
+      }, 1000);
+    });
+    wrap.appendChild(out); wrap.appendChild(btn); wrap.appendChild(note);
+    return wrap;
+  }
+
+  function renderLesson(i) {
+    var raw = LESSONS[i];
+    var b = JSON.parse(F(JSON.stringify(raw)));
+    b.learn = raw.learn; b.fillNode = raw.fillNode; b.fillTop = raw.fillTop;
+    if (timerId) { clearInterval(timerId); timerId = null; }
+    stage.textContent = '';
+    var card = el('div', 'card');
+
+    var Sc = [];
+    Sc.push(['Get ready', function () {
+      var d = el('div', 'wleft');
+      d.appendChild(el('p', 'lead', (S.n ? 'Hi ' + S.n + '! ' : '') + 'In this lesson, I can ' + b.can));
+      d.appendChild(h('ul', 'big-list', '<li>📓 Take your English exercise book.</li><li>✏️ Take a pencil.</li><li>📄 Open a new page.</li>'));
+      d.appendChild(el('p', 'hint', 'You can use the timer at the top.'));
+      return d;
+    }]);
+    Sc.push(['Read the question', function () {
+      var d = el('div', 'wleft');
+      d.appendChild(el('p', 'col-q', 'Read the question. Find 4 things.'));
+      d.appendChild(h('div', 'q-text', b.q.html));
+      d.appendChild(legendNode(b.q.legend));
+      return d;
+    }]);
+    Sc.push(['Make notes in your book', function () {
+      var two = el('div', 'two');
+      var l = el('div', 'wleft');
+      l.appendChild(h('p', 'lead', 'Write these notes in your exercise book. Use short words, not full sentences.'));
+      var det = el('details', 'help');
+      det.appendChild(el('summary', null, 'Check my notes'));
+      var hb = el('div', 'help-body');
+      b.notesAns.forEach(function (t) { hb.appendChild(el('p', null, t)); });
+      det.appendChild(hb);
+      l.appendChild(det);
+      two.appendChild(l); two.appendChild(bookPage(b.notes, 'Your notes page'));
+      return two;
+    }]);
+    b.learn.forEach(function (L) { Sc.push([L[0], L[1]]); });
+    if (b.fillNode) {
+      Sc.push([b.fillTitle, function () {
+        var d = el('div', 'wleft');
+        d.appendChild(el('p', 'lead', b.fillLead));
+        if (b.fillTop) d.appendChild(b.fillTop());
+        d.appendChild(b.fillNode(i));
+        return d;
+      }]);
+    }
+    Sc.push(['Write in your book', function () {
+      var two = el('div', 'two');
+      var left = el('div', 'wleft');
+      left.appendChild(h('div', null, b.task));
+      if (b.frames) left.appendChild(h('div', null, frameList(b.frames)));
+      if (b.tip) left.appendChild(el('p', 'why', b.tip));
+      if (b.composeRows) {
+        var cp = compose(b.composeRows === 'email' ? EMAIL_ROWS : NOTE_ROWS, i, b.composeRows === 'email' ? 2 : -1);
+        var right = el('div', 'wleft');
+        right.appendChild(bookPage(cp.lines.map(function (x) { return F(x); }), 'Copy this into your book'));
+        if (cp.missing > 0) right.appendChild(el('p', 'why', 'Some gaps are empty (______). Press Back to fill them first.'));
+        two.appendChild(left); two.appendChild(right);
+        return two;
+      }
+      two.appendChild(left); two.appendChild(bookPage(b.lines));
+      return two;
+    }, true]);
+    if (!b.fillNode) Sc.push(['Check your writing', function () { return checkNode(i); }]);
+    Sc.push(['Send your photo', function () {
+      var send = el('div', 'sendbox');
+      send.appendChild(h('ol', 'plain', '<li>Check that your name, class and date are at the top.</li><li>Put the book flat near a window or a light. Take a clear photo of your page.</li><li>Send the photo to your teacher on WhatsApp.</li>'));
+      var lab = document.createElement('label'), cb = document.createElement('input');
+      cb.type = 'checkbox'; cb.id = 'sent-' + i; cb.checked = done[i];
+      lab.appendChild(cb); lab.appendChild(el('span', null, 'I sent my photo to my teacher.'));
+      send.appendChild(lab);
+      var msgBox = el('div', 'done-msg'); msgBox.setAttribute('role', 'status');
+      function drawMsg() {
+        msgBox.textContent = '';
+        msgBox.hidden = !done[i];
+        if (!done[i]) return;
+        var acts = el('div', 'row-actions');
+        if (i < LESSONS.length - 1) {
+          msgBox.appendChild(el('p', null, 'Well done' + (S.n ? ', ' + S.n : '') + '! Ready for the next one?'));
+          var nb = el('button', 'btn', 'Go to Lesson ' + (i + 2)); nb.type = 'button';
+          nb.addEventListener('click', function () { openLesson(i + 1); });
+          acts.appendChild(nb);
+        } else {
+          msgBox.appendChild(el('p', null, 'Well done' + (S.n ? ', ' + S.n : '') + '! You finished all ' + LESSONS.length + ' lessons.'));
+        }
+        var ab = el('button', 'pill-btn', 'All lessons'); ab.type = 'button';
+        ab.addEventListener('click', function () { renderHome(); showTab('home'); });
+        acts.appendChild(ab);
+        msgBox.appendChild(acts);
+      }
+      cb.addEventListener('change', function () { done[i] = cb.checked; saveDone(); drawMsg(); });
+      drawMsg();
+      send.appendChild(msgBox);
+      return send;
+    }]);
+
+    var head = el('div', 'lhead');
+    head.appendChild(el('span', 'eyebrow', 'Lesson ' + (i + 1) + ' of ' + LESSONS.length + ' · ' + UNITS[b.unit].name));
+    head.appendChild(el('h2', null, b.name));
+    var bar = el('div', 'lbar');
+    var dots = el('div', 'dots'); dots.setAttribute('aria-hidden', 'true');
+    var stepno = el('span', 'stepno');
+    var bmBtn = el('button', 'pill-btn', 'BM'); bmBtn.type = 'button';
+    bmBtn.setAttribute('aria-pressed', String(S.bm)); bmBtn.setAttribute('aria-label', 'Show help in Bahasa Melayu');
+    bmBtn.addEventListener('click', function () { S.bm = !S.bm; save(); bmBtn.setAttribute('aria-pressed', String(S.bm)); go(cur); });
+    bar.appendChild(dots); bar.appendChild(stepno); bar.appendChild(timerNode(b.time)); bar.appendChild(bmBtn);
+    head.appendChild(bar);
+    card.appendChild(head);
+
+    var holder = el('div');
+    var nav = el('div', 'nav');
+    card.appendChild(holder); card.appendChild(nav);
+    stage.appendChild(card);
+
+    var cache = [], cur = 0;
+    var learnTitles = b.learn.map(function (L) { return L[0]; });
+    function go(n) {
+      cur = n;
+      S.p[i] = n; save();
+      holder.textContent = '';
+      var sc = el('div', 'screen');
+      stopSpeak();
+      sc.appendChild(el('h3', null, Sc[n][0]));
+      if (S.bm) sc.appendChild(el('p', 'bm', BM[Sc[n][0]] || BM['*']));
+      if (!cache[n] || Sc[n][2]) cache[n] = Sc[n][1]();
+      if (canSpeak && (Sc[n][0] === 'Read the question' || learnTitles.indexOf(Sc[n][0]) > -1)) {
+        var tl = el('div', 'tools'); tl.appendChild(listenBtn(function () { return cache[n].innerText || cache[n].textContent; }, '🔊 Listen')); sc.appendChild(tl);
+      }
+      sc.appendChild(cache[n]);
+      holder.appendChild(sc);
+      dots.textContent = '';
+      Sc.forEach(function (x, k) { dots.appendChild(el('span', 'dot' + (k < n ? ' on' : k === n ? ' now' : ''))); });
+      stepno.textContent = 'Step ' + (n + 1) + ' of ' + Sc.length;
+      nav.textContent = '';
+      if (n > 0) {
+        var bk = el('button', 'pill-btn', '← Back'); bk.type = 'button';
+        bk.addEventListener('click', function () { go(cur - 1); window.scrollTo(0, 0); });
+        nav.appendChild(bk);
+      }
+      nav.appendChild(el('span', 'spacer'));
+      if (n < Sc.length - 1) {
+        var nx = el('button', 'btn', 'Next →'); nx.type = 'button';
+        nx.addEventListener('click', function () { go(cur + 1); window.scrollTo(0, 0); });
+        nav.appendChild(nx);
+      }
+    }
+    var start = Number(S.p[i]) || 0;
+    go(start >= 0 && start < Sc.length ? start : 0);
+  }
+
+  /* ---------- toolkit ---------- */
+  var PHRASES = [
+    ['Start', ['Dear Nadia,', 'Hello Yuki,', 'Hi Nadia!']],
+    ['Say why you are writing', ['I am writing to introduce myself.', 'I want to take you out this Saturday.', 'I need a favour from you.']],
+    ['Invite', ['Would you like to join me?', "Let's go to the river."]],
+    ['Say sorry', ['I am sorry, but I cannot come.', 'I am sorry to trouble you.']],
+    ['Give a reason', ['I have a bad cold.', 'I must go to a wedding.']],
+    ['Ask for help', ['Can you collect my books for me?', 'Could you please help me?']],
+    ['Meet', ["Let's meet at ten o'clock in front of the shop.", 'Can we meet on Sunday at the playground?']],
+    ['Say thank you', ['Thank you very much!', 'Thank you for the lovely present.']],
+    ['End', ['See you soon!', 'Bye for now and hope you reply soon.', 'Write soon!']]
+  ];
+  var MISTAKES = [
+    ['I am go to the river.', 'I am going to the river.'],
+    ['Can you collect for me my books?', 'Can you collect my books for me?'],
+    ['dear nadia', 'Dear Nadia,'],
+    ["Let's meet in ten o'clock.", "Let's meet at ten o'clock."],
+    ['(no sign-off)', 'Love, Hana']
+  ];
+  var TK = [['tk-read', 'Read the question'], ['tk-parts', 'Parts of an email'], ['tk-note', 'Parts of a note'], ['tk-phrases', 'Phrase bank'], ['tk-mistakes', 'Common mistakes'], ['tk-count', 'Word counter']];
+  var tkNav = $('#tk-nav');
+  TK.forEach(function (t) {
+    var b = el('button', 'pill-btn', t[1]); b.type = 'button';
+    b.addEventListener('click', function () { $('#' + t[0]).scrollIntoView(); });
+    tkNav.appendChild(b);
+  });
+  $('#tk-legend').appendChild(legendNode({ who: 'Who you write to. Start with Dear and the name.', why: 'Why you write. Say it in one sentence.', pts: 'The bullet points. Answer every one.', words: 'How long to write. Count your words.' }));
+  $('#tk-parts-box').appendChild(annot(EMAIL_ROWS, 'sample', 0));
+  $('#tk-note-box').appendChild(annot(NOTE_ROWS, 'sample', 1));
+  var phr = $('#tk-phr');
+  PHRASES.forEach(function (p) {
+    var c = el('div', 'phr'); c.appendChild(el('h4', null, p[0]));
+    p[1].forEach(function (s) { c.appendChild(el('p', null, s)); });
+    phr.appendChild(c);
+  });
+  var mist = $('#tk-mist');
+  MISTAKES.forEach(function (m) {
+    var r = el('div', 'mist-row');
+    var no = el('div', 'no'); no.appendChild(el('small', null, 'Not this')); no.appendChild(el('span', null, m[0]));
+    var yes = el('div', 'yes'); yes.appendChild(el('small', null, 'Write this')); yes.appendChild(el('span', null, m[1]));
+    r.appendChild(no); r.appendChild(yes); mist.appendChild(r);
+  });
+
+  var wcText = $('#wc-text'), wc = $('#wc'), wstatus = $('#wstatus'), meter = $('#meter'), fill = $('#fill');
+  function updateCount() {
+    var n = words(wcText.value);
+    wc.textContent = n;
+    fill.style.width = Math.min(n, 60) / 60 * 100 + '%';
+    var state, msg;
+    if (n === 0) { state = 'short'; msg = 'Target: 30 to 50 words'; }
+    else if (n < 30) { state = 'short'; msg = (30 - n) + ' more word' + (30 - n === 1 ? '' : 's') + ' to reach 30'; }
+    else if (n <= 50) { state = 'ok'; msg = 'Good length'; }
+    else { state = 'long'; msg = (n - 50) + ' word' + (n - 50 === 1 ? '' : 's') + ' over 50'; }
+    meter.setAttribute('data-state', state);
+    wstatus.textContent = msg;
+  }
+  wcText.addEventListener('input', updateCount);
+  $('#wc-clear').addEventListener('click', function () { wcText.value = ''; updateCount(); });
+
+  renderHome();
+  if (location.hash === '#toolkit') showTab('toolkit');
+})();
+</script>
+
+</body></html>
